@@ -1,14 +1,19 @@
+
 ul {
     list-style-type: none;
-    margin: 50;
-    padding: 0;
     overflow: hidden;
     background-color: #333;
 }
 
 li {
     display: inline;
-    float: left;
+    float: right;
+}
+
+.logo {
+    display: inline-block;
+    text-align: center;
+    float: left;    
 }
 
 li a {
@@ -18,7 +23,14 @@ li a {
     padding: 8px; 16px; 
 }
 
+
 li a:hover {
     background-color: #ffffff;
     color: black;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    padding: 8px; 16px;
 }
