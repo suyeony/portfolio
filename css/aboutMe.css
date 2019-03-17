@@ -4,7 +4,7 @@ body {
 
 
 
-#menu {
+#menu{
     list-style-type: none;
     overflow: hidden;
     height: 80px;
@@ -48,19 +48,21 @@ li a:hover {
 
 
 main {
-    background-image: url("../images/hawaii-large.jpg");
-    background-size: 100% 100%;
-    width: 100%;
-    height: 500px;
-    margin: 0px 0px;
-    
+   height: 800px;
 }
 
-#main_paragraph {
-    margin: 0px;
-    text-align: center;
-    color: #ffffff;
-    font-size: 80px;
+
+
+ul#main_list li {
+    display: inline;
+}
+
+ul#information {
+    display: block;
+}
+#profile {
+    height: 100px;
+    weight: 100px;
 }
 footer {
     display: block;
