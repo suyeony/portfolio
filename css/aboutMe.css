@@ -43,34 +43,30 @@ li a {
 
 li a:hover {
     
-    color: black;
+    color: #7e7777;
 }
 
 
 main {
-  
+    height:500px;
 }
 
-ul#main_list {
+div#main_contents {
     list-style: none;
     padding: 80px;
     padding-top: 50px;
 }
 
-ul#main_list li {
-    display: inline-flex;
-    padding: 30px;
-}
-
-p#information {
+div#intro_words {
     font-size: 20px;
+    float: left;
     
 }
 
 #profile {
     height: 300px;
     weight: 300px;
-    padding-left: 70px;
+    float: right;
 }
 footer {
     display: block;
