@@ -48,21 +48,29 @@ li a:hover {
 
 
 main {
-   height: 800px;
+  
 }
 
-
+ul#main_list {
+    list-style: none;
+    padding: 80px;
+    padding-top: 50px;
+}
 
 ul#main_list li {
-    display: inline;
+    display: inline-flex;
+    padding: 30px;
 }
 
-ul#information {
-    display: block;
+p#information {
+    font-size: 20px;
+    
 }
+
 #profile {
-    height: 100px;
-    weight: 100px;
+    height: 300px;
+    weight: 300px;
+    padding-left: 70px;
 }
 footer {
     display: block;
