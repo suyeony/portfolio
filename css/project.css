@@ -51,7 +51,20 @@ main {
     height:500px;
 }
 
+ul#project_list {
+    list-style: none;
+}
 
+#cal {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+li#project_desc {
+    padding: 30px;
+}
 
 footer {
     display: block;
