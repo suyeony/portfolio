@@ -48,22 +48,29 @@ li a:hover {
 
 
 main {
-    height:500px;
+    height:600px;
 }
 
 div#main_contents {
     list-style: none;
-    padding: 80px;
-    padding-top: 50px;
+    
+    
 }
 
 ul#contact_ul {
     
 }
 
-li#contact_list {
+h1 {
+    list-style: none;
+}
+
+li.contact_list {
     list-style: none;
     padding: 10px;
+    width: 70px;
+    height: 70px;
+    margin-left: 0px;
 }
 
 img#contact_image {
