@@ -59,10 +59,12 @@ div#main_contents {
 
 ul#contact_ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 h1 {
+    display: flex;
+    justify-content: center;
     list-style: none;
 }
 
@@ -85,9 +87,8 @@ footer {
 }
 
 .footer {
-    float: left;
+    padding: 30px;
     color: #7e7777;
     text-align: center;
-    margin: 0px;
-    padding-top: 30px;
+   
 }

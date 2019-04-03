@@ -53,10 +53,12 @@ main {
 
 ul#project_list {
     list-style: none;
+    display: flex;
+    justify-content: flex-start;
 }
 
 li#projects {
-    float: left;
+  
 }
 #cal {
     width: 200px;
@@ -78,9 +80,8 @@ footer {
 }
 
 .footer {
-    float: left;
+    padding: 30px;
     color: #7e7777;
     text-align: center;
-    margin: 0px;
-    padding-top: 30px;
+   
 }

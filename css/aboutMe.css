@@ -75,9 +75,8 @@ footer {
 }
 
 .footer {
-    float: left;
+    padding: 30px;
     color: #7e7777;
     text-align: center;
-    margin: 0px;
-    padding-top: 30px;
+   
 }
