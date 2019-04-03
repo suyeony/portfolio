@@ -58,7 +58,8 @@ div#main_contents {
 }
 
 ul#contact_ul {
-    
+    display: flex;
+    justify-content: space-around;
 }
 
 h1 {
